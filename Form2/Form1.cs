@@ -17,6 +17,8 @@ namespace Form2
         {
             InitializeComponent();
             this.num = 0;
+            linkLabel3.Links.Add(0, 7, "www.youtube.com.br");
+            linkLabel3.Links.Add(10, 18, "www.instagram.com.br");
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -68,6 +70,34 @@ namespace Form2
         {
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
+        }
+
+        private void dateTimePickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
+            f_DateTimePicker.ShowDialog();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://google.com/search?q=" + tb_text.Text);
+            
+            LinkLabel ll = (LinkLabel)sender;
+            ll.LinkVisited = true;
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
+            
+            LinkLabel ll = (LinkLabel)sender;
+            ll.LinkVisited = true;
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.Link.LinkData.ToString());
+            e.Link.Visited = true;
         }
     }
 }
