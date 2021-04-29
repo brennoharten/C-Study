@@ -8,3 +8,8 @@ C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.csproj.GenerateResource.cache
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.csproj.CoreCompileInputs.cache
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.exe
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.pdb
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_Lista.resources
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_CheckBox.resources
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_CheckedListBox.resources
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_filhoCheckbox.resources
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_ComboBox.resources

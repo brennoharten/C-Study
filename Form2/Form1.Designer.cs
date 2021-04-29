@@ -34,18 +34,26 @@ namespace Form2
             this.btn_clear = new System.Windows.Forms.Button();
             this.tb_list = new System.Windows.Forms.TextBox();
             this.lb_Principal = new System.Windows.Forms.Label();
+            this.btn_show = new System.Windows.Forms.Button();
+            this.btn_num = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tb_text
             // 
-            this.tb_text.Location = new System.Drawing.Point(32, 52);
+            this.tb_text.Location = new System.Drawing.Point(24, 76);
             this.tb_text.Name = "tb_text";
             this.tb_text.Size = new System.Drawing.Size(247, 20);
             this.tb_text.TabIndex = 0;
             // 
             // btn_add
             // 
-            this.btn_add.Location = new System.Drawing.Point(285, 50);
+            this.btn_add.Location = new System.Drawing.Point(277, 74);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(75, 23);
             this.btn_add.TabIndex = 1;
@@ -55,7 +63,7 @@ namespace Form2
             // 
             // btn_clear
             // 
-            this.btn_clear.Location = new System.Drawing.Point(32, 415);
+            this.btn_clear.Location = new System.Drawing.Point(24, 398);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(328, 23);
             this.btn_clear.TabIndex = 2;
@@ -65,34 +73,104 @@ namespace Form2
             // 
             // tb_list
             // 
-            this.tb_list.Location = new System.Drawing.Point(32, 79);
+            this.tb_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_list.Location = new System.Drawing.Point(24, 103);
             this.tb_list.Multiline = true;
             this.tb_list.Name = "tb_list";
+            this.tb_list.ReadOnly = true;
             this.tb_list.Size = new System.Drawing.Size(328, 289);
             this.tb_list.TabIndex = 3;
             // 
             // lb_Principal
             // 
             this.lb_Principal.AutoSize = true;
-            this.lb_Principal.Location = new System.Drawing.Point(32, 33);
+            this.lb_Principal.Location = new System.Drawing.Point(24, 57);
             this.lb_Principal.Name = "lb_Principal";
             this.lb_Principal.Size = new System.Drawing.Size(141, 13);
             this.lb_Principal.TabIndex = 4;
             this.lb_Principal.Text = "Adicione um elemento a lista";
             // 
+            // btn_show
+            // 
+            this.btn_show.Location = new System.Drawing.Point(24, 428);
+            this.btn_show.Name = "btn_show";
+            this.btn_show.Size = new System.Drawing.Size(328, 23);
+            this.btn_show.TabIndex = 5;
+            this.btn_show.Text = "Mostrar lista";
+            this.btn_show.UseVisualStyleBackColor = true;
+            this.btn_show.Click += new System.EventHandler(this.btn_show_Click);
+            // 
+            // btn_num
+            // 
+            this.btn_num.Location = new System.Drawing.Point(24, 456);
+            this.btn_num.Name = "btn_num";
+            this.btn_num.Size = new System.Drawing.Size(328, 23);
+            this.btn_num.TabIndex = 6;
+            this.btn_num.Text = "Mostrar o valor de num";
+            this.btn_num.UseVisualStyleBackColor = true;
+            this.btn_num.Click += new System.EventHandler(this.btn_num_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.componentesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(386, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // componentesToolStripMenuItem
+            // 
+            this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkBoxToolStripMenuItem,
+            this.checkedListBoxToolStripMenuItem,
+            this.comboBoxToolStripMenuItem});
+            this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
+            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.componentesToolStripMenuItem.Text = "componentes";
+            // 
+            // checkBoxToolStripMenuItem
+            // 
+            this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkBoxToolStripMenuItem.Text = "CheckBox";
+            this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
+            // 
+            // checkedListBoxToolStripMenuItem
+            // 
+            this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
+            this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
+            // 
+            // comboBoxToolStripMenuItem
+            // 
+            this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comboBoxToolStripMenuItem.Text = "ComboBox";
+            this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 450);
+            this.ClientSize = new System.Drawing.Size(386, 507);
+            this.Controls.Add(this.btn_num);
+            this.Controls.Add(this.btn_show);
             this.Controls.Add(this.lb_Principal);
             this.Controls.Add(this.tb_list);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.tb_text);
+            this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,8 +181,15 @@ namespace Form2
         private System.Windows.Forms.TextBox tb_text;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Button btn_clear;
-        private System.Windows.Forms.TextBox tb_list;
         private System.Windows.Forms.Label lb_Principal;
+        private System.Windows.Forms.Button btn_show;
+        private System.Windows.Forms.Button btn_num;
+        public System.Windows.Forms.TextBox tb_list;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
     }
 }
 
