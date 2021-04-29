@@ -78,6 +78,12 @@ namespace Form2
             f_DateTimePicker.ShowDialog();
         }
 
+        private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListBox f_ListBox = new F_ListBox();
+            f_ListBox.ShowDialog();
+        }
+
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://google.com/search?q=" + tb_text.Text);
