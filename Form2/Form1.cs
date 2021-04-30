@@ -89,6 +89,13 @@ namespace Form2
             F_ListView f_ListView = new F_ListView();
             f_ListView.ShowDialog();
         }
+
+        private void maskedTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_MaskedTextBox f_MaskedTextBox = new F_MaskedTextBox();
+            f_MaskedTextBox.ShowDialog();
+        }
+        
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://google.com/search?q=" + tb_text.Text);
@@ -111,5 +118,23 @@ namespace Form2
             e.Link.Visited = true;
         }
 
+        private void F_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+            switch (e.ClickedItem.Name.ToString()) {
+                case "tsmi_fechar":
+                    this.Close();
+                    break;
+                case "tsmi_resetar":
+                    this.WindowState = FormWindowState.Normal;
+                    break;
+            
+            }
+        }
     }
 }
