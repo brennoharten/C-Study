@@ -32,8 +32,7 @@ namespace Form2
             {
                 this.lista.Add(tb_text.Text);
                 tb_text.Clear();
-                lb_main.DataSource = null;
-                lb_main.DataSource = this.lista;
+                atualizarLista(lb_main, this.lista);
             }
             else {
                 MessageBox.Show("adicio algo a lista");
@@ -43,14 +42,18 @@ namespace Form2
         private void btn_remove_Click(object sender, EventArgs e)
         {
             lista.RemoveAt(lb_main.SelectedIndex);
-            lb_main.DataSource = null;
-            lb_main.DataSource = this.lista;
+            atualizarLista(lb_main, this.lista);
         }
 
         private void btn_get_Click(object sender, EventArgs e)
         {
             tb_text.Text = lista[lb_main.SelectedIndex];
 
+        }
+
+        private void atualizarLista(ListBox lb, List<string> lista) {
+            lb.DataSource = null;
+            lb.DataSource = lista;
         }
     }
 }

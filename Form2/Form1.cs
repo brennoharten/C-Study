@@ -84,6 +84,11 @@ namespace Form2
             f_ListBox.ShowDialog();
         }
 
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListView f_ListView = new F_ListView();
+            f_ListView.ShowDialog();
+        }
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://google.com/search?q=" + tb_text.Text);
@@ -105,5 +110,6 @@ namespace Form2
             System.Diagnostics.Process.Start(e.Link.LinkData.ToString());
             e.Link.Visited = true;
         }
+
     }
 }
