@@ -112,6 +112,12 @@ namespace Form2
             ll.LinkVisited = true;
         }
 
+        private void pictureBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_PictureBox f_Picture = new F_PictureBox();
+            f_Picture.ShowDialog();
+        }
+
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(e.Link.LinkData.ToString());

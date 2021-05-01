@@ -106,6 +106,12 @@
     <Compile Include="F_MaskedTextBox.Designer.cs">
       <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_PictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_PictureBox.Designer.cs">
+      <DependentUpon>F_PictureBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -138,6 +144,9 @@
     <EmbeddedResource Include="F_MaskedTextBox.resx">
       <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_PictureBox.resx">
+      <DependentUpon>F_PictureBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -146,6 +155,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -159,6 +169,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coding2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
