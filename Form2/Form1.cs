@@ -117,6 +117,11 @@ namespace Form2
             F_PictureBox f_Picture = new F_PictureBox();
             f_Picture.ShowDialog();
         }
+        private void radioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_RadioButton f_Radio = new F_RadioButton();
+            f_Radio.ShowDialog();
+        }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -142,5 +147,7 @@ namespace Form2
             
             }
         }
+
+        
     }
 }

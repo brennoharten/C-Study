@@ -18,3 +18,4 @@ C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_ListBox.resources
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_ListView.resources
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_MaskedTextBox.resources
 C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_PictureBox.resources
+C:\Users\brenn\source\repos\Form2\obj\Debug\Form2.F_RadioButton.resources
