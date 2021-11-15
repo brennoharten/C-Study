@@ -8,20 +8,39 @@ namespace ByteBankConta
         {
             try
             {
-                ContaCorrente conta = new ContaCorrente(456, 4446457);
+                CarregarContas();
+            } 
+            catch(Exception)
+            {
 
-                conta.Depositar(50);
-                Console.WriteLine(conta.Saldo);
-                conta.Sacar(500);
             }
-            catch(ArgumentException e)
+        }
+
+        private static void CarregarContas()
+        {
+            using(LeitorDeArquivo leitor = new LeitorDeArquivo("teste.txt"))
             {
-                Console.WriteLine("o parametro " + e.ParamName + "nao pode ser igual a zero");
+                leitor.LerProximaLinha();
             }
-            catch(SaldoInsuficienteException e)
-            {
-                Console.WriteLine("Exceção do tipo saldo insuficiente");
-            }
+
+            // --------------------------------------------------
+
+
+            // LeitorDeArquivo leitor = new LeitorDeArquivo("contas.txt");
+            // try
+            // {
+            //     leitor.LerProximaLinha();
+            //     leitor.LerProximaLinha();
+            //     leitor.LerProximaLinha();
+            // }
+            // catch(IOException)
+            // {
+            //     Console.WriteLine("Exceção do tipo IOException capturada e tratada!");
+            // }
+            // finally
+            // {
+            //     leitor.Fechar();
+            // }
         }
     }
 }
