@@ -1,0 +1,16 @@
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta.deps.json
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta.runtimeconfig.json
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta.runtimeconfig.dev.json
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta.dll
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ref/ByteBankConta.dll
+/home/brennoharten/Estudo/C-Study/ByteBankConta/bin/Debug/net5.0/ByteBankConta.pdb
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.csproj.AssemblyReference.cache
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.GeneratedMSBuildEditorConfig.editorconfig
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.AssemblyInfoInputs.cache
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.AssemblyInfo.cs
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.csproj.CoreCompileInputs.cache
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.dll
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ref/ByteBankConta.dll
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.pdb
+/home/brennoharten/Estudo/C-Study/ByteBankConta/obj/Debug/net5.0/ByteBankConta.genruntimeconfig.cache
