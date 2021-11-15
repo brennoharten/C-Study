@@ -10,7 +10,14 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            Console.ReadLine();
+            try
+            {
+                ContaCorrente conta = new ContaCorrente(456, 0);
+            }
+            catch(ArgumentException e)
+            {
+                Console.WriteLine("o parametro " + e.ParamName + "nao pode ser igual a zero");
+            }
         }
     }
 }
