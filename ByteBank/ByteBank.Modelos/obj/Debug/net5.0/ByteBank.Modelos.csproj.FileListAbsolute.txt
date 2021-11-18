@@ -1,0 +1,12 @@
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csprojAssemblyReference.cache
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.AssemblyInfoInputs.cache
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.AssemblyInfo.cs
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.deps.json
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.dll
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\ref\ByteBank.Modelos.dll
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.pdb
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.dll
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ref\ByteBank.Modelos.dll
+C:\Users\brenn\study\C-Study\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.pdb
