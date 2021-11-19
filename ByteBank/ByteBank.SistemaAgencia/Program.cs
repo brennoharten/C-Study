@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
+using Humanizer;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -11,10 +12,17 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente(847, 489024);
-            
+            DateTime dataFimPagamento = new DateTime(2021, 12, 17);
+            DateTime dataCorrente = DateTime.Now;
+            TimeSpan diferenca = dataFimPagamento - dataCorrente;
 
-            Console.WriteLine(conta.Numero);
+            string mensagem = "vencimento em: " + TimeSpanHumanizeExtensions.Humanize(diferenca);
+
+            Console.WriteLine(mensagem);
+
+            //ContaCorrente conta = new ContaCorrente(15, 134513);
+
+            //Console.WriteLine(conta.Numero);
         }
     }
 }

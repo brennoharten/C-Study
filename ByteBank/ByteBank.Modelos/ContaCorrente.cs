@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Modelos
 {
+    /// <summary>
+    /// Define uma Conta Corrente do banco ByteBank.
+    /// </summary>
     public class ContaCorrente
     {
         private static int TaxaOperacao;
@@ -37,7 +40,13 @@ namespace ByteBank.Modelos
                 _saldo = value;
             }
         }
-
+        
+        ///<summary>
+        ///Cria uma instancia de ContaCorrente com os argumento utilizados.
+        ///</summary>
+        ///<exception cref="ArgumentException">when things go wrong.<pararef name="valor"/></exception>
+        ///<param name="agencia"> Representa o valor da propriedade <see cref="Agencia"/> e deve possuir um valor maior que zero</param>
+        ///<param name="numero"> Representa o valor da propriedade <see cref="Numero"/> e deve possuir um valor maior que zero</param>
         public ContaCorrente(int agencia, int numero)
         {
             if (numero <= 0)

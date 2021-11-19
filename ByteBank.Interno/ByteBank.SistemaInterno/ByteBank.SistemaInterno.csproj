@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ByteBank.Modelos">
+      <HintPath>..\..\..\..\Biblioteca\ByteBank.Modelos.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

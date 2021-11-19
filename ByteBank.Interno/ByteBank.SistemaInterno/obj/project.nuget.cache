@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k/7A7UYD98lVL7ZOqJYhv1YuQ+yhqs/ZoPDE1YnS6SvRBFzj3rpZ8SeM4PLGltnl8vw00v9KtWo4/VtzPtmsHg==",
+  "dgSpecHash": "ykkdIcSd9vXvXqbj8h39eCMqpOHv1wBiJbk6E0YGJGQ+qgEWqQqRirA/eW6/8qXDw9Pn/f2YwPJ0/S8K05YgHA==",
   "success": true,
-  "projectFilePath": "/home/brennoharten/Estudo/C-Study/ByteBank.Interno/ByteBank.SistemaInterno/ByteBank.SistemaInterno.csproj",
+  "projectFilePath": "c:\\Users\\brenn\\study\\C-Study\\ByteBank.Interno\\ByteBank.SistemaInterno\\ByteBank.SistemaInterno.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

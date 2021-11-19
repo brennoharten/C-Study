@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/brennoharten/.nuget/packages/": {}
+    "C:\\Users\\brenn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/brennoharten/Estudo/C-Study/ByteBank.Interno/ByteBank.SistemaInterno/ByteBank.SistemaInterno.csproj",
+      "projectUniqueName": "C:\\Users\\brenn\\study\\C-Study\\ByteBank.Interno\\ByteBank.SistemaInterno\\ByteBank.SistemaInterno.csproj",
       "projectName": "ByteBank.SistemaInterno",
-      "projectPath": "/home/brennoharten/Estudo/C-Study/ByteBank.Interno/ByteBank.SistemaInterno/ByteBank.SistemaInterno.csproj",
-      "packagesPath": "/home/brennoharten/.nuget/packages/",
-      "outputPath": "/home/brennoharten/Estudo/C-Study/ByteBank.Interno/ByteBank.SistemaInterno/obj/",
+      "projectPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank.Interno\\ByteBank.SistemaInterno\\ByteBank.SistemaInterno.csproj",
+      "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank.Interno\\ByteBank.SistemaInterno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/brennoharten/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
       }
     }
   }
