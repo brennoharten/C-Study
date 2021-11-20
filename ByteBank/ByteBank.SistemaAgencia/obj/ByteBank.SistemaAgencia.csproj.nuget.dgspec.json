@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj": {}
+    "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+    "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
+        "projectUniqueName": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj",
         "projectName": "ByteBank.Modelos",
-        "projectPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
-        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\obj\\",
+        "projectPath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj",
+        "packagesPath": "/home/brennoharten/.nuget/packages/",
+        "outputPath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/brennoharten/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,36 +52,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj": {
+    "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+        "projectUniqueName": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj",
         "projectName": "ByteBank.SistemaAgencia",
-        "projectPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
-        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.SistemaAgencia\\obj\\",
+        "projectPath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj",
+        "packagesPath": "/home/brennoharten/.nuget/packages/",
+        "outputPath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.SistemaAgencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/brennoharten/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
-                "projectPath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+              "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj": {
+                "projectPath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj"
               }
             }
           }
@@ -118,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

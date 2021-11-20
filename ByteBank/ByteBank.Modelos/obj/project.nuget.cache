@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dooCI3nmFu8Zglst781gr5w/RSD7CkYh8/TxEJaMQdh+stAcptsZ3eHtv23u2eZnm1P8UTfiY7Fe7SqkHLXR3w==",
+  "dgSpecHash": "yTl+Y49sJLWhcS8Ldd0hm1CljxSC6PxjMy/2FHjs0gEDNZXLUcEtUGIqkqItRE6zKiN4XN0AJWpD6NhaSTK68Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brenn\\study\\C-Study\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
+  "projectFilePath": "/home/brennoharten/Estudo/C-Study/ByteBank/ByteBank.Modelos/ByteBank.Modelos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
