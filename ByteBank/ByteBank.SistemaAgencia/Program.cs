@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
+using ByteBank.SistemaAgencia.Extensoes;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -12,9 +13,42 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            Lista<int> idades = new Lista<int>();
+            var listaContas = new List<ContaCorrente>() {
+                new ContaCorrente(123, 1),
+                new ContaCorrente(26, 3),
+                null,
+                new ContaCorrente(1243, 2),
+                new ContaCorrente(14623, 4),
+                null,
+            };
 
-            idades.Adicionar(5);
+
+            //listaContas.Sort();  Chama a implementação dada em IComparable
+            //listaContas.Sort(new ComparerContaCorrenteAgencia()); 
+            //var ContasNaoNulas = listaContas.Where(conta => conta != null);
+            //var ContasOrdenada = ContasNaoNulas.OrderBy(conta => conta.Numero);
+
+            var ContasOrdenada = listaContas
+                .Where(conta => conta != null)
+                .OrderBy(conta => conta.Numero);
+            
+
+            foreach (var item in ContasOrdenada)
+            {
+                Console.WriteLine($"conta de numero: {item.Numero} e ag {item.Agencia}");
+                
+            }
+        }
+
+        static void TestantoSortEOrderBy(){
+            
+        }
+
+
+        static void TestaEstensoes(){
+            List<int> idades = new List<int>();
+
+            idades.Add(5);
             idades.AdicionarVarios(1, 5, 78);
 
             Console.WriteLine(SomarVarios(1, 2, 3, 5, 56465, 45));
@@ -23,7 +57,6 @@ namespace ByteBank.SistemaAgencia
 
             Console.ReadLine();
         }
-
         static void TestaListaDeObject()
         {
             ListaDeObject listaDeIdades = new ListaDeObject();
